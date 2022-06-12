@@ -1,0 +1,114 @@
+*{
+    /* box-sizing: border-box; */
+    /* /* margin-left: auto; */
+    /* margin-right: auto;  */
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fdfeff;
+}
+
+.nav{
+    background-color: #dce0e1;
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.nav_link{
+display: flex;
+justify-content: end;
+justify-content: space-around;
+}
+
+.header{
+    background: url(/rsschool-cv/background.20da3d64.png);
+}
+
+.header_name{
+   display: flex;
+   width: 50%;
+   margin: 0 auto;
+   justify-content: space-around;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto; 
+    padding: 40px 20px;
+  }
+
+
+.subtitle {
+flex: 0 1 50%;
+  }
+
+img{
+   box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+   
+   
+}
+
+.decs{
+    line-height: 30px;
+}
+
+h1{
+    font-family: 'Nuosu SIL', serif;
+
+    font-size: 40px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #f57394;
+}
+.decs, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.subtitle_with_square{
+    list-style-type: square;
+}
+
+.line{
+    border-bottom: 3px solid #d9ecfe;
+    width: 100%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+
+.go_to_top{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    background: #fff;
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    padding: 0 15px;
+    line-height: 26px;
+    text-align: center;
+    z-index: 100;
+    background: rgba(0, 0, 0, .0);
+}
+
+.footer{
+    background-color: #dce0e1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
