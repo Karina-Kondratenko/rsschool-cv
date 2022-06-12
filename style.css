@@ -47,9 +47,7 @@ flex: 0 1 50%;
   }
 
 img{
-   box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
-   
-   
+   padding-right: 10px;  
 }
 
 .decs{
